@@ -1,0 +1,25 @@
+.main__content {
+    background-color: hsl(0, 0%, 100%);
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom-right-radius: 150px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main__content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .main__content {
+        width: 90%;
+    }
+}
+
